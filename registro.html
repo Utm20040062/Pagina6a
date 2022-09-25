@@ -9,17 +9,18 @@
 
     <div class="login-box">
       <img src="img/logo.jpg" class="avatar" alt="Avatar Image">
-      <h1>Login Here</h1>
-      <form>
+      <h1>Sing up Here</h1>
+      <form action="registro.php" method="post">
         <!-- USERNAME INPUT -->
-        <label for="username">Username</label>
-        <input type="text" placeholder="Enter Username">
+        <label for="username">Username </label>
+        <input type="text" placeholder="Enter Username" name="usuario">
         <!-- PASSWORD INPUT -->
         <label for="password">Password</label>
-        <input type="password" placeholder="Enter Password">
-        <input type="submit" value="Log In">
-        <a href="#">Lost your Password?</a><br>
-        <a href="#">Don't have An account?</a>
+        <input type="password" placeholder="Enter Password" name="password">
+        <a href="home.html">
+        <input type="submit" value="Sing up">
+        </a>
+            <a href="index.html">Already have an account?</a>
       </form>
     </div>
   </body>
